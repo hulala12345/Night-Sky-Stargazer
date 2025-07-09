@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Sky Stargazer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Night Sky Stargazer</h1>
+    <div id="controls">
+        <label><input type="checkbox" id="toggleNames" checked> Show Star Names</label>
+        <label><input type="checkbox" id="toggleConstellations" checked> Show Constellations</label>
+        <label><input type="checkbox" id="toggleInfo" checked> Show Info Overlay</label>
+        <label>Datetime: <input type="datetime-local" id="datetime"></label>
+    </div>
+    <canvas id="starMap" width="800" height="600"></canvas>
+    <div id="infoCard" class="hidden"></div>
+    <script src="script.js"></script>
+</body>
+</html>
